@@ -1,0 +1,108 @@
+.postPageCont {
+  gap: 20px;
+
+  padding-bottom: 50px;
+}
+.postCont {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.postTitle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTitle > p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.postEdit {
+  cursor: pointer;
+}
+.postEdit:hover {
+  cursor: pointer;
+  color: rgb(198, 129, 0);
+  transform: scale(1.03);
+}
+
+.commentsCont {
+  width: 50%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commentsList {
+  padding-bottom: 20px;
+
+  width: 100%;
+
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#newCommentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#newCommentInput {
+  border: 1px solid gray;
+  height: 100px;
+  text-align: start;
+  resize: none;
+  width: 80%;
+
+  padding: 10px;
+}
+
+#newCommentInput::-webkit-scrollbar {
+  display: none;
+}
+
+.newCommentButton {
+  background-color: orange;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+
+  border-radius: 5px;
+}
+
+.newCommentButton:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.commentCont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+
+  border-bottom: 1px solid rgb(155, 155, 155);
+  padding: 10px;
+}
+
+.commentUser {
+  font-weight: bold;
+}
+.commentDate {
+  color: rgb(103, 103, 103);
+}

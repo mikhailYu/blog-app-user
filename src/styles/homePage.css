@@ -1,0 +1,59 @@
+.homeCont {
+  gap: 20px;
+}
+
+.authSectionHome {
+  font-size: 1em;
+}
+
+.authLinkSpan {
+  color: rgb(255, 96, 23);
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.authLinkSpan:hover {
+  text-decoration: underline;
+}
+
+.postsListCont {
+  display: flex;
+  width: 50%;
+
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.postsListHeader {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.postPreviewCont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+
+  background-color: white;
+  padding: 20px;
+  border: 1px solid rgb(116, 116, 116);
+  border-radius: 5px;
+}
+
+.postPreviewCont:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.postPreviewTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.postPreviewDate {
+  color: rgba(0, 0, 0, 0.728);
+}
