@@ -15,8 +15,7 @@ export default function LoginPage() {
       withCredentials: true,
       credentials: "include",
       headers: {
-        "Access-Control-Allow-Origin":
-          "https://mikhailyu.github.io/blog-app-user",
+        "Access-Control-Allow-Origin": "https://mikhailyu.github.io",
         Accept: "application/json",
         "Content-Type": "application/json",
         timeout: 100000,

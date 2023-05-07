@@ -15,8 +15,7 @@ export default function SignUpPage() {
       method: "POST",
       withCredentials: true,
       headers: {
-        "Access-Control-Allow-Origin":
-          "https://mikhailyu.github.io/blog-app-user",
+        "Access-Control-Allow-Origin": "https://mikhailyu.github.io",
         Accept: "application/json",
         "Content-Type": "application/json",
         timeout: 100000,
@@ -42,8 +41,7 @@ export default function SignUpPage() {
       withCredentials: true,
       credentials: "include",
       headers: {
-        "Access-Control-Allow-Origin":
-          "https://mikhailyu.github.io/blog-app-user",
+        "Access-Control-Allow-Origin": "https://mikhailyu.github.io",
         Accept: "application/json",
         "Content-Type": "application/json",
         timeout: 100000,
