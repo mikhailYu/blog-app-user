@@ -13,8 +13,12 @@ export default function SignUpPage() {
   async function signUp(req) {
     const result = await fetch(`${baseUrl}/signUp`, {
       method: "POST",
+      withCredentials: true,
       headers: {
-        "content-type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        timeout: 100000,
       },
       body: JSON.stringify({
         username: usernameInput,
