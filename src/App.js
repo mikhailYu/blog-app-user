@@ -12,7 +12,8 @@ function App() {
       // withCredentials: true,
       // credentials: "include",
       headers: {
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin":
+          "https://mikhailyu.github.io/blog-app-user",
         Accept: "application/json",
         "Content-Type": "application/json",
       },
